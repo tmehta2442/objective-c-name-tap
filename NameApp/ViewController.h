@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UILabel *nameLabel;
+@property (nonatomic, strong) IBOutlet UILabel *hiddenStuff;
+
+- (IBAction)showName:(id)sender;
+- (IBAction)showHiddenStuff:(id)sender;
 
 @end
 

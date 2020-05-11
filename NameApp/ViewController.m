@@ -19,5 +19,13 @@
     // Do any additional setup after loading the view.
 }
 
+-(IBAction)showName:(id)sender {
+    [self.nameLabel setText:(@"Tejas Rules")];
+
+}
+
+-(IBAction)showHiddenStuff:(id)sender {
+    [self.hiddenStuff setText:(@"Starting to get Objective C")];
+}
 
 @end
