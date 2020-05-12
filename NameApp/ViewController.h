@@ -13,8 +13,13 @@
 @property (nonatomic, strong) IBOutlet UILabel *nameLabel;
 @property (nonatomic, strong) IBOutlet UILabel *hiddenStuff;
 
+@property (nonatomic, strong) IBOutlet UILabel *firstLabel;
+@property (nonatomic, strong) IBOutlet UILabel *secondLabel;
+@property (nonatomic, strong) IBOutlet UILabel *thirdLabel;
+
 - (IBAction)showName:(id)sender;
 - (IBAction)showHiddenStuff:(id)sender;
+- (IBAction)showHiddenNames:(id)sender;
 
 @end
 

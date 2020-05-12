@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446A1CE0246A2F7D00A27DEF /* SimpleLabelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 446A1CDF246A2F7D00A27DEF /* SimpleLabelData.m */; };
 		44C1455A2468D4B9001AEA9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C145592468D4B9001AEA9E /* AppDelegate.m */; };
 		44C1455D2468D4B9001AEA9E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C1455C2468D4B9001AEA9E /* SceneDelegate.m */; };
 		44C145602468D4B9001AEA9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C1455F2468D4B9001AEA9E /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		446A1CDE246A2F7D00A27DEF /* SimpleLabelData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleLabelData.h; sourceTree = "<group>"; };
+		446A1CDF246A2F7D00A27DEF /* SimpleLabelData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLabelData.m; sourceTree = "<group>"; };
 		44C145552468D4B9001AEA9E /* NameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C145582468D4B9001AEA9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44C145592468D4B9001AEA9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				44C145662468D4BA001AEA9E /* LaunchScreen.storyboard */,
 				44C145692468D4BA001AEA9E /* Info.plist */,
 				44C1456A2468D4BA001AEA9E /* main.m */,
+				446A1CDE246A2F7D00A27DEF /* SimpleLabelData.h */,
+				446A1CDF246A2F7D00A27DEF /* SimpleLabelData.m */,
 			);
 			path = NameApp;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C145602468D4B9001AEA9E /* ViewController.m in Sources */,
+				446A1CE0246A2F7D00A27DEF /* SimpleLabelData.m in Sources */,
 				44C1455A2468D4B9001AEA9E /* AppDelegate.m in Sources */,
 				44C1456B2468D4BA001AEA9E /* main.m in Sources */,
 				44C1455D2468D4B9001AEA9E /* SceneDelegate.m in Sources */,

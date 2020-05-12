@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SimpleLabelData.h"
 
 @interface ViewController ()
 
@@ -28,4 +29,17 @@
     [self.hiddenStuff setText:(@"Starting to get Objective C")];
 }
 
+-(IBAction)showHiddenNames:(id)sender {
+    SimpleLabelData *one = [SimpleLabelData simpleLabelDataWithTitle:@"FirstName"
+                                                            andValue:@"Tejas"];
+    self.firstLabel.text = [one combinedString];
+    
+    SimpleLabelData *two = [SimpleLabelData simpleLabelDataWithTitle:@"SecondName"
+                                                            andValue:@"Mehta"];
+    self.secondLabel.text = [two combinedString];
+    
+    SimpleLabelData *three = [SimpleLabelData simpleLabelDataWithTitle:@"Age"
+                                                            andValue:@"40"];
+    self.thirdLabel.text = [three combinedString];
+}
 @end
